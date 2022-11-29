@@ -1,0 +1,53 @@
+.card{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(82, 189, 80, 0.795);
+}
+.card_container{
+    padding: 25px;
+    background-color: azure;
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 5px 10px 10px #000;
+}
+.row_card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.editbtn{
+    padding: 12px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.edit{
+    height: 100px !important;
+}
+.passwordedit{
+    margin-bottom: 15px;
+    padding: 15px 25px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+.submit{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}

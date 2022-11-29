@@ -1,0 +1,63 @@
+.logincontainer{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    height: 100vh;
+    background-color: brown;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&w=1500");
+}
+.container{
+    width: 500px;
+    background-color: rgb(5, 5, 5);
+    border-radius: 18px;
+    box-shadow: rgb(0, 0, 0);
+}
+.inputfeild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.inputfeild label{
+    padding: 18px;
+    font-size: 32px;
+}
+.inputfeild input{
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 15px ;
+    padding: 12px;
+    color: #000;
+    z-index: 100;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.btn button{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px ;
+    background-color:blue;
+    color: #000;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    transform: scale(1.1);
+    transition: ease-out;
+    background-color: orange !important;
+    color: #000;
+}
